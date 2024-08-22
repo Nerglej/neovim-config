@@ -1,1 +1,1 @@
-require("williamj").init()
+require("williamj")

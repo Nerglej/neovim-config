@@ -9,7 +9,7 @@
     nixpkgs,
     ...
   }:
-    flake-parts.lib.makeFlake { inherit inputs; } {
+    flake-parts.lib.mkFlake { inherit inputs; } {
       flake = {
         lib = import ./lib { inherit inputs; };
       };
